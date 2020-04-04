@@ -17,7 +17,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading Text Files", "Readi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parsing Text in Files", "Parsing Text in Files\Parsing Text in Files.vcxproj", "{38A6B027-2852-47C0-A9AE-8F2981FE39B8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structs and Padding", "Structs and Padding\Structs and Padding.vcxproj", "{7716C221-188B-45BE-8480-04A1BC941C54}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Files", "Structs and Padding\Structs and Padding.vcxproj", "{7716C221-188B-45BE-8480-04A1BC941C54}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vector", "Vector\Vector.vcxproj", "{416C74E4-22BA-403B-9AF4-C8519A91F380}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,14 @@ Global
 		{7716C221-188B-45BE-8480-04A1BC941C54}.Release|x64.Build.0 = Release|x64
 		{7716C221-188B-45BE-8480-04A1BC941C54}.Release|x86.ActiveCfg = Release|Win32
 		{7716C221-188B-45BE-8480-04A1BC941C54}.Release|x86.Build.0 = Release|Win32
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Debug|x64.ActiveCfg = Debug|x64
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Debug|x64.Build.0 = Debug|x64
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Debug|x86.ActiveCfg = Debug|Win32
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Debug|x86.Build.0 = Debug|Win32
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Release|x64.ActiveCfg = Release|x64
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Release|x64.Build.0 = Release|x64
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Release|x86.ActiveCfg = Release|Win32
+		{416C74E4-22BA-403B-9AF4-C8519A91F380}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
