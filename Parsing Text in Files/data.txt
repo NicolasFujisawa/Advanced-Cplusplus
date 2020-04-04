@@ -1,0 +1,3 @@
+Population BR: 209000000
+Population EUA: 325000000
+Population ME: 129000000
