@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vectors and Memory", "Vecto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two Dimensional Vector", "Two Dimensional Vector\Two Dimensional Vector.vcxproj", "{BBA061B4-A610-4FBD-99E3-04B341DABF70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lists", "Lists\Lists.vcxproj", "{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{BBA061B4-A610-4FBD-99E3-04B341DABF70}.Release|x64.Build.0 = Release|x64
 		{BBA061B4-A610-4FBD-99E3-04B341DABF70}.Release|x86.ActiveCfg = Release|Win32
 		{BBA061B4-A610-4FBD-99E3-04B341DABF70}.Release|x86.Build.0 = Release|Win32
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Debug|x64.ActiveCfg = Debug|x64
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Debug|x64.Build.0 = Debug|x64
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Debug|x86.Build.0 = Debug|Win32
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Release|x64.ActiveCfg = Release|x64
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Release|x64.Build.0 = Release|x64
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Release|x86.ActiveCfg = Release|Win32
+		{20ED87E5-D473-4854-92C2-CDDAE78DD2EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
