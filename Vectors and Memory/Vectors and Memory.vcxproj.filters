@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basic Exceptions.cpp">
+    <ClCompile Include="Vectors and Memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

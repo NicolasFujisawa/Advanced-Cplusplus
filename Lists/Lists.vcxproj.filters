@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basic Exceptions.cpp">
+    <ClCompile Include="Lists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
