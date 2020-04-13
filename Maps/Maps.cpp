@@ -19,18 +19,18 @@ int main() {
 	/* add directly */
 	age.insert(make_pair("Nico", 21));
 
-	if (age.find("Vic") != age.end()) {
-		cout << "Found Vic" << endl;
+	if (age.find("Nico") != age.end()) {
+		cout << "Found: " << age.find("Nico")->second << endl;
 	}
 	else {
 		cout << "Key no found" << endl;
 	}
-
+	
 	/* iterando entre o map */
 	for (map<string, int>::iterator it = age.begin(); it != age.end(); it++) {
 		cout << it->first << ": " << it->second << endl;
 	}
-
+	cout << endl;
 	/* iterando entre o map com pair */
 	for (map<string, int>::iterator it = age.begin(); it != age.end(); it++) {
 		pair<string, int> age = *it;
