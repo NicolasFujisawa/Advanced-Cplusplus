@@ -29,14 +29,14 @@ public:
 		*this = that;
 	}
 	
-	
+	friend ostream& operator<<(ostream& out, const Person& that);
 };
-	ostream& operator<<(ostream& out, const Person& that) {
-		out << "name: " << that.name << ", " << that.age << " years.";
 
-		return out;
-	}
+ostream& operator<<(ostream& out, const Person& that) {
+	out << "name: " << that.name << ", " << that.age << " years.";
 
+	return out;
+}
 
 int main() {
 	Person people1 = Person("Nicolas", 21);
