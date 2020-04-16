@@ -45,6 +45,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL Complex Data Types", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading the Assignment Operator", "Overloading the Assignment Operator\Overloading the Assignment Operator.vcxproj", "{84140CCF-2C6A-4264-95A4-E86F65ABF955}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solving problems", "Solving problems\Solving problems.vcxproj", "{887C1D1B-34D9-4F19-A3A3-69677295F921}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Overloading the Insertion Operator for Printing", "Overloading the Insertion Operator for Printing\Overloading the Insertion Operator for Printing.vcxproj", "{B4628273-5021-423D-A34C-E19D21D2EF71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +225,22 @@ Global
 		{84140CCF-2C6A-4264-95A4-E86F65ABF955}.Release|x64.Build.0 = Release|x64
 		{84140CCF-2C6A-4264-95A4-E86F65ABF955}.Release|x86.ActiveCfg = Release|Win32
 		{84140CCF-2C6A-4264-95A4-E86F65ABF955}.Release|x86.Build.0 = Release|Win32
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Debug|x64.ActiveCfg = Debug|x64
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Debug|x64.Build.0 = Debug|x64
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Debug|x86.ActiveCfg = Debug|Win32
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Debug|x86.Build.0 = Debug|Win32
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Release|x64.ActiveCfg = Release|x64
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Release|x64.Build.0 = Release|x64
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Release|x86.ActiveCfg = Release|Win32
+		{887C1D1B-34D9-4F19-A3A3-69677295F921}.Release|x86.Build.0 = Release|Win32
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Debug|x64.ActiveCfg = Debug|x64
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Debug|x64.Build.0 = Debug|x64
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Debug|x86.Build.0 = Debug|Win32
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Release|x64.ActiveCfg = Release|x64
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Release|x64.Build.0 = Release|x64
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Release|x86.ActiveCfg = Release|Win32
+		{B4628273-5021-423D-A34C-E19D21D2EF71}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
