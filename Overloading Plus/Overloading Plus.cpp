@@ -18,5 +18,7 @@ int main() {
         cout << c1 << " and " << c2 << flush;
         cout << " aren't equals" << endl;
     }
+
+    cout << *c1 + *Complex(1, 1) << endl;
     return 0;
 }

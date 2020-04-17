@@ -29,6 +29,10 @@ bool Complex::operator!=(const Complex& other) const {
 	return !(*this == other);
 }
 
+Complex Complex::operator*() const {
+	return Complex(real, -imaginary);
+}
+
 ostream& operator<<(ostream& out, const Complex& that) {
 	out << "(" << that.getReal() << " + ";
 	out << that.getImaginary() << "i)";
