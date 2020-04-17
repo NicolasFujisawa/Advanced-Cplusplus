@@ -9,5 +9,14 @@ int main() {
 
     cout << c1 << " + " << c2 << "= " << flush;
     cout << c1 + c2 << endl;
+
+    if (c1 == c2) {
+        cout << c1 << " and " << c2 << flush;
+        cout << " are equals" << endl;
+    }
+    else if (c1 != c2) {
+        cout << c1 << " and " << c2 << flush;
+        cout << " aren't equals" << endl;
+    }
     return 0;
 }

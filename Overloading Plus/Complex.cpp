@@ -21,6 +21,14 @@ const Complex& Complex::operator=(const Complex& that) {
 	return *this;
 }
 
+bool Complex::operator==(const Complex& other) const {
+	return real == other.real && imaginary == other.imaginary;
+}
+
+bool Complex::operator!=(const Complex& other) const {
+	return !(*this == other);
+}
+
 ostream& operator<<(ostream& out, const Complex& that) {
 	out << "(" << that.getReal() << " + ";
 	out << that.getImaginary() << "i)";
