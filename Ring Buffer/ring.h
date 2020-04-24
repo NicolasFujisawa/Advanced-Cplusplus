@@ -16,7 +16,14 @@ public:
 
 	Ring(size_t size) : m_pos(0), m_size(size), m_values(NULL) {
 		m_values = new T[size];
+		cout << "data stored: " << (sizeof(T) * size) / 4 << "kb" << endl;
 	}
+
+	//Ring(initializer_list<T> data) {
+	//	for (auto value : data) {
+	//		*this->add(value);
+	//	}
+	//}
 
 	~Ring() {
 		cout << "deleting ring buffer" << endl;
@@ -64,8 +71,7 @@ private:
 	Ring &m_ring;
 public:
 	iterator(int pos, Ring& ring) : 
-			m_ring(ring), m_pos(pos) {
-
+		m_ring(ring), m_pos(pos) {
 	}
 
 	iterator& operator++(int) { /* post-fix ov */
@@ -85,4 +91,5 @@ public:
 	bool operator!=(const iterator& other)const {
 		return m_pos != other.m_pos;
 	}
+
 };
