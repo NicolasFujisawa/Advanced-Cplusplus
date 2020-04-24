@@ -3,15 +3,6 @@
 
 using namespace std;
 
-template<class T>
-void Ring<T>::print() {
-    cout << "{" << flush;
-    for (int i = 0; i < m_size; ++i) {
-        cout << m_values[i] << ", " << flush;
-    }
-    cout << "}" << endl;
-}
-
 int main() {
     Ring<string> log(3);
 
@@ -28,4 +19,9 @@ int main() {
     log.add(string("9 log ok"));
     log.print();
 
+    cout << "last result: " << endl;
+    for (auto m : log) {
+        cout << m << endl;
+    }
+    cout << "-- end of final result -- " << endl;
 }
