@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    Ring<string> log(3);
-
+    Ring<string> log(3, { "oi" });
     log.add(string("1 log ok"));
     log.add(string("2 log ok"));
+    log.print();
     log.add(string("3 log ok"));
     log.add(string("4 log ok"));
     log.add(string("5 log ok"));

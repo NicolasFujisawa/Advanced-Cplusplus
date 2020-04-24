@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <initializer_list>
 
 using namespace std;
 
@@ -19,11 +20,13 @@ public:
 		cout << "data stored: " << (sizeof(T) * size) / 4 << "kb" << endl;
 	}
 
-	//Ring(initializer_list<T> data) {
-	//	for (auto value : data) {
-	//		*this->add(value);
-	//	}
-	//}
+	Ring(size_t size, initializer_list<T> data) : m_pos(0), m_size(size), m_values(NULL) {
+		m_values = new T[size];
+		for (auto value : data) {
+			this->add(value);
+		}
+		
+	}
 
 	~Ring() {
 		cout << "deleting ring buffer" << endl;
