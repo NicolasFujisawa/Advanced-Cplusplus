@@ -31,6 +31,11 @@ int main() {
 		cout << it->first << ": " << it->second << endl;
 	}
 	cout << endl;
+	/* iterando com auto */
+	for (auto it : age) {
+		cout << it.first << ": " << it.second << endl;
+	}
+	cout << endl;
 	/* iterando entre o map com pair */
 	for (map<string, int>::iterator it = age.begin(); it != age.end(); it++) {
 		pair<string, int> age = *it;
