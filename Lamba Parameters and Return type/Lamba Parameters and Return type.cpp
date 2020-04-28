@@ -4,12 +4,29 @@
 #include <set>
 using namespace std;
 
+class Number {
+private:
+    int one{ 1 };
+    int two{ 2 };
+public:
+    void run() {
+
+        auto lambda = [this]() {
+            cout << one << endl;
+            cout << two << endl;
+        };
+        lambda();
+    }
+};
+
 void pDivide(double (*divide)(double a, double b)) {
     cout << divide(12 , 4) << endl;
-};
+}
+
 void ido( void (*IDO)(string) ) {
     IDO("We can have a dog!");
 }
+
 int main() {
     auto iDo = [](string str) {
         int s = str.size();
@@ -46,4 +63,7 @@ int main() {
     cout << pdivide(10, 2) << endl;
 
     pDivide(pdivide);
+
+    Number number;
+    number.run();
 }
