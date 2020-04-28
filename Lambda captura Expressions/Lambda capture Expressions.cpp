@@ -22,4 +22,10 @@ int main() {
 	[&]() { /* Capturing all values by reference */
 		cout << one-- << " to " << one++ << endl;
 	}();
+
+	[three]() mutable { /* Capturing by value and changing the value */
+		three = 100;
+		cout << three << " " << flush;
+	}();
+	cout << three << endl;
 }

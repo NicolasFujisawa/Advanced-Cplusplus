@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lambda captura Expressions.cpp">
+    <ClCompile Include="Lambda capture Expressions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
