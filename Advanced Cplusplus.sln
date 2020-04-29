@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lambda capture Expressions"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functional Types", "Functional Types\Functional Types.vcxproj", "{2B6E2AC5-1BB5-4661-BDD1-D7C70A0DCC81}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Static Casts", "Static Casts\Static Casts.vcxproj", "{365C2277-22CA-4210-969A-8D183D636637}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{2B6E2AC5-1BB5-4661-BDD1-D7C70A0DCC81}.Release|x64.Build.0 = Release|x64
 		{2B6E2AC5-1BB5-4661-BDD1-D7C70A0DCC81}.Release|x86.ActiveCfg = Release|Win32
 		{2B6E2AC5-1BB5-4661-BDD1-D7C70A0DCC81}.Release|x86.Build.0 = Release|Win32
+		{365C2277-22CA-4210-969A-8D183D636637}.Debug|x64.ActiveCfg = Debug|x64
+		{365C2277-22CA-4210-969A-8D183D636637}.Debug|x64.Build.0 = Debug|x64
+		{365C2277-22CA-4210-969A-8D183D636637}.Debug|x86.ActiveCfg = Debug|Win32
+		{365C2277-22CA-4210-969A-8D183D636637}.Debug|x86.Build.0 = Debug|Win32
+		{365C2277-22CA-4210-969A-8D183D636637}.Release|x64.ActiveCfg = Release|x64
+		{365C2277-22CA-4210-969A-8D183D636637}.Release|x64.Build.0 = Release|x64
+		{365C2277-22CA-4210-969A-8D183D636637}.Release|x86.ActiveCfg = Release|Win32
+		{365C2277-22CA-4210-969A-8D183D636637}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
